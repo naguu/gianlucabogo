@@ -1,0 +1,116 @@
+.admin-page {
+  min-height: 100vh;
+  background: #f4f4f5;
+  color: #1a1a1a;
+  font-family: var(--font-body);
+  padding: 32px;
+}
+
+.admin-header {
+  max-width: 640px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-header h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.logout {
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.logout:hover { background: #eee; }
+
+.muted { color: #777; font-size: 13px; }
+
+.box {
+  max-width: 640px;
+  margin: 0 auto 32px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 24px;
+}
+
+.box h2 { font-size: 17px; margin-top: 0; }
+
+label {
+  display: block;
+  margin: 14px 0 4px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="file"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+textarea { min-height: 100px; resize: vertical; }
+
+button[type="submit"] {
+  margin-top: 16px;
+  padding: 10px 18px;
+  background: #e10600;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button[type="submit"]:disabled { opacity: 0.6; cursor: default; }
+
+.message {
+  margin: 12px 0 0;
+  background: #e6f6e6;
+  border: 1px solid #b6ddb6;
+  padding: 10px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.post-row {
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.post-row:last-child { border-bottom: none; }
+
+.delete {
+  color: #e10600;
+  background: none;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.delete:disabled { opacity: 0.6; cursor: default; }
+
+@media (max-width: 480px) {
+  .admin-page { padding: 20px 16px; }
+  .box { padding: 18px; }
+  .admin-header { flex-wrap: wrap; gap: 10px; }
+  .post-row { flex-wrap: wrap; }
+}

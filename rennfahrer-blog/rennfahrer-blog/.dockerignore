@@ -1,0 +1,7 @@
+client/node_modules
+client/dist
+client/.angular
+server/node_modules
+server/uploads
+server/data
+.git

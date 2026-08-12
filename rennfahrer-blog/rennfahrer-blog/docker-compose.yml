@@ -1,0 +1,22 @@
+services:
+  api:
+    build:
+      context: ./server
+    container_name: rennfahrer-api
+    env_file:
+      - ./server/.env
+    volumes:
+      - ./server/data:/app/data
+      - ./server/uploads:/app/uploads
+    restart: unless-stopped
+
+  web:
+    build:
+      context: .
+      dockerfile: client/Dockerfile
+    container_name: rennfahrer-web
+    depends_on:
+      - api
+    ports:
+      - "8080:80"
+    restart: unless-stopped

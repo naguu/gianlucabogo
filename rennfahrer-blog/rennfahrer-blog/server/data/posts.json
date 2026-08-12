@@ -1,0 +1,106 @@
+{
+  "profile": {
+    "name": "Gianluca Bogo",
+    "tagline": "Kartsport · Young Drivers 2026 · Auto Sport Schweiz",
+    "bio": "Mein Name ist Gianluca Bogo, geboren am 14.06.2009. Mit sechs Jahren entstand der grosse Traum, selbst Rennfahrer zu werden - Motorsport ist für mich nicht nur ein Hobby, sondern meine Leidenschaft. 2025 bin ich in den Kartsport eingestiegen und habe jede Möglichkeit genutzt, um schneller und besser zu werden. Bereits 2026 wurde ich als offizieller Teilnehmer in das Young Drivers Projekt 2026 von Auto Sport Schweiz aufgenommen. Der Wechsel vom Kart- in den Automobilsport ist bereits konkret in Vorbereitung, erste Gespräche wurden erfolgreich geführt und wichtige Weichen für den nächsten Karriereschritt sind gestellt. Mit harter Arbeit, grosser Eigenleistung, Disziplin und unerschütterlichem Willen arbeite ich konsequent daran, meinen Weg im Motorsport zu gehen.",
+    "photo": "uploads/portrait-gianluca.jpg",
+    "heroPhoto": "uploads/hero-kart-action.jpg"
+  },
+  "posts": [
+    {
+      "id": 1,
+      "title": "Neuer Partner: Autodrom Albisser",
+      "date": "2026-03-07",
+      "text": "Ein starker Partner an meiner Seite: Die Autodrom Albisser GmbH aus Däniken unterstützt mich aktiv auf meinem Weg im Motorsport. Inhaber Markus Albisser bringt eine ganz besondere Racing-DNA in unsere Partnerschaft ein - er ist ehemaliger Rennfahrer und blickt auf eine erfolgreiche Karriere im Formelsport zurück, besonders prägend war seine Zeit in der Schweizer Meisterschaft und im Formel Ford Cup. Vielen Dank an Markus und das ganze Team von Autodrom Albisser für das Vertrauen, den wertvollen Input und den grossartigen Support!",
+      "images": [
+        "uploads/post-partner-albisser-1.jpg",
+        "uploads/post-partner-albisser-2.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Driftkurs mit Yves Meier",
+      "date": "2026-04-15",
+      "text": "Am 15. April durfte ich am Driftkurs von Yves Meier teilnehmen. Er ist eine der prägendsten Figuren der internationalen Driftszene und leitet das professionelle Rennteam The Drift Force aus Emmetten (Nidwalden). Ein Tag voller neuer Eindrücke, feinem Gefühl fürs Fahrzeug und jeder Menge PS auf der Passstrasse.",
+      "images": [
+        "uploads/post-driftkurs-1.jpg",
+        "uploads/post-driftkurs-2.jpg",
+        "uploads/post-driftkurs-3.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Saisonstart in Vesoul",
+      "date": "2026-04-19",
+      "text": "Los geht's: Am 19. April ist meine Kartsaison 2026 mit dem ersten Rennen auf dem Circuit de la Vallée in Vesoul (Frankreich) gestartet. Nach Monaten im Simulator und im Athletiktraining war es ein besonderes Gefühl, endlich wieder im Renntrimm auf der Strecke zu stehen.",
+      "images": [
+        "uploads/post-vesoul-1.jpg",
+        "uploads/post-vesoul-2.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "SimRacing: die tägliche Vorbereitung",
+      "date": "2026-04-28",
+      "text": "Meine tägliche Vorbereitung auf den Automobilsport findet nicht nur auf der Strecke, sondern auch am Simulator statt. Beim Strecken-Onboarding präge ich mir Bremspunkte und Ideallinien millimetergenau ein, damit ich im echten Cockpit die Strecke in- und auswendig kenne. SimRacing trainiert zudem meine Konzentration und Konstanz über viele Runden hinweg - kombiniert mit dem Fitnesstraining simuliere ich so auch die körperliche Ermüdung eines echten Rennens.",
+      "images": [
+        "uploads/post-simracing-1.jpg",
+        "uploads/post-simracing-2.jpg",
+        "uploads/post-simracing-3.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Athletiktraining mit Adrian Zaugg",
+      "date": "2026-06-10",
+      "text": "Mein Athletiktraining mit den Besten der Schweiz: Kein Geringerer als Ex-Rennprofi Adrian Zaugg betreut mich als exklusiver Fitness-Coach. Auf dem Programm standen ein medizinischer Profi-Check in der Swiss Sports Clinic in Bern zur exakten Leistungsdiagnostik, ein FMS-Test zur Analyse meiner Bewegungsabläufe und ein individuelles Target-Training für Nacken, Rumpf und Core, damit ich den extremen Fliehkräften im Formel-4-Auto problemlos standhalte.",
+      "images": [
+        "uploads/post-fitness-1.jpg",
+        "uploads/post-fitness-2.jpg",
+        "uploads/post-fitness-3.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Aufnahme ins Young Drivers Programm 2026",
+      "date": "2026-06-20",
+      "text": "Ich wurde offiziell als Teilnehmer in das Young Drivers Projekt 2026 von Auto Sport Schweiz aufgenommen und gehöre damit zu den Young Drivers 2026 - ein wichtiger Meilenstein auf meinem Weg in den Motorsport. Der Wechsel vom Kart- in den Automobilsport ist damit bereits konkret in Vorbereitung, erste Gespräche wurden erfolgreich geführt und wichtige Weichen für den nächsten Karriereschritt sind gestellt.",
+      "images": [
+        "uploads/post-youngdrivers-1.jpg",
+        "uploads/post-youngdrivers-2.jpg",
+        "uploads/post-youngdrivers-3.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Drift Masters Lettland mit The Drift Force",
+      "date": "2026-07-25",
+      "text": "Ein besonderes Erlebnis: Am 24. und 25. Juli durfte ich das Rennteam von Yves Meier, The Drift Force, nach Lettland zu einem internationalen Drift-Event begleiten und hautnah miterleben, wie auf höchstem Niveau performt wird.",
+      "images": [
+        "uploads/post-lettland-1.jpg",
+        "uploads/post-lettland-2.jpg",
+        "uploads/post-lettland-3.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Zweites Saisonrennen in Lévier",
+      "date": "2026-08-09",
+      "text": "Am 9. August ging es weiter im Kartkalender: Zweites Saisonrennen auf dem Circuit de l'Enclos in Lévier (Frankreich). Mit jedem Rennwochenende sammle ich mehr Erfahrung und komme meinem Ziel, dem Wechsel in den Automobilsport, einen Schritt näher.",
+      "images": [
+        "uploads/post-levier-1.jpg",
+        "uploads/post-levier-2.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Nächste Ziele: Formel-4-Test und Saisonfinale",
+      "date": "2026-08-12",
+      "text": "Der Kalender bleibt spannend: Am 23. August steht das dritte Saisonrennen in Mirecourt an, bevor am 25. August das sportliche Highlight des Jahres wartet - der Formel-4-Test auf dem 2,4 Kilometer langen Circuit du Laquais in Frankreich. In Kooperation mit Jenzer Motorsport absolvieren zehn ausgewählte Piloten rund 150 Testkilometer, die Rundenzeiten und Telemetriedaten werden von Teamchef Andreas Jenzer und seinen Ingenieuren akribisch analysiert. Am 24. Oktober folgt auf der Kart-Bahn Wohlen das Saisonfinale 2026.",
+      "images": [
+        "uploads/post-formel4-1.jpg",
+        "uploads/post-nextgoals-2.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+<div class="admin-page">
+  <header class="admin-header">
+    <h1>Adminbereich</h1>
+    <button type="button" class="logout" (click)="logout()">Abmelden</button>
+  </header>
+
+  @if (loading) {
+    <p class="muted">Lade Daten…</p>
+  } @else {
+    <section class="box">
+      <h2>Profil</h2>
+      <form (ngSubmit)="saveProfile(photoInput, heroInput)">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" [(ngModel)]="profile.name">
+
+        <label for="tagline">Kurzinfo, Kategorie, Team, Startnummer</label>
+        <input id="tagline" type="text" name="tagline" [(ngModel)]="profile.tagline">
+
+        <label for="bio">Bio</label>
+        <textarea id="bio" name="bio" rows="6" [(ngModel)]="profile.bio"></textarea>
+
+        <label for="photo">Portraitfoto ersetzen (Werdegang, hochkant)</label>
+        <input id="photo" type="file" accept="image/*" #photoInput>
+
+        <label for="heroPhoto">Hero-Foto ersetzen (Startbild, breit)</label>
+        <input id="heroPhoto" type="file" accept="image/*" #heroInput>
+
+        <button type="submit" [disabled]="profileSaving">
+          {{ profileSaving ? 'Speichere…' : 'Profil speichern' }}
+        </button>
+        @if (profileMessage) {
+          <p class="message">{{ profileMessage }}</p>
+        }
+      </form>
+    </section>
+
+    <section class="box">
+      <h2>Neuer Beitrag</h2>
+      <form (ngSubmit)="addPost(imagesInput)">
+        <label for="title">Titel</label>
+        <input id="title" type="text" name="title" [(ngModel)]="newPost.title" required>
+
+        <label for="date">Datum</label>
+        <input id="date" type="date" name="date" [(ngModel)]="newPost.date">
+
+        <label for="text">Text</label>
+        <textarea id="text" name="text" rows="6" [(ngModel)]="newPost.text"></textarea>
+
+        <label for="images">Bilder, mehrere Auswahl möglich</label>
+        <input id="images" type="file" accept="image/*" multiple #imagesInput>
+
+        <button type="submit" [disabled]="postSaving">
+          {{ postSaving ? 'Speichere…' : 'Beitrag veröffentlichen' }}
+        </button>
+        @if (postMessage) {
+          <p class="message">{{ postMessage }}</p>
+        }
+      </form>
+    </section>
+
+    <section class="box">
+      <h2>Bestehende Beiträge</h2>
+      @if (!posts.length) {
+        <p class="muted">Noch keine Beiträge vorhanden.</p>
+      }
+      @for (post of posts; track post.id) {
+        <div class="post-row">
+          <div>
+            <strong>{{ post.title }}</strong>
+            <div class="muted">{{ post.date }}, {{ post.images.length }} Bild(er)</div>
+          </div>
+          <button
+            type="button"
+            class="delete"
+            [disabled]="deletingId === post.id"
+            (click)="deletePost(post)">
+            {{ deletingId === post.id ? 'Lösche…' : 'Löschen' }}
+          </button>
+        </div>
+      }
+    </section>
+  }
+</div>

@@ -1,0 +1,22 @@
+<div class="login-page">
+  <form class="login-box" (ngSubmit)="submit()">
+    <h1>Adminbereich</h1>
+    <p class="hint">Bitte Passwort eingeben, um Profil und Beiträge zu verwalten.</p>
+
+    <label for="password">Passwort</label>
+    <input
+      id="password"
+      type="password"
+      name="password"
+      [(ngModel)]="password"
+      autocomplete="current-password"
+      required
+      autofocus>
+
+    @if (error) {
+      <p class="error">{{ error }}</p>
+    }
+
+    <button type="submit" [disabled]="loading">{{ loading ? 'Prüfe…' : 'Anmelden' }}</button>
+  </form>
+</div>

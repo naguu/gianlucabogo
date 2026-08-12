@@ -1,0 +1,42 @@
+:root {
+  --bg: #0b0d10;
+  --surface: #16191d;
+  --surface-2: #1e2227;
+  --line: #2a2e34;
+  --text: #f2f2f0;
+  --text-muted: #9a9da3;
+  --accent: #e10600;
+  --accent-2: #f5c400;
+
+  --font-display: 'Oswald', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'Roboto Mono', monospace;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+img { max-width: 100%; display: block; }
+
+/* Trenner, wird auf mehreren Seiten verwendet */
+
+.flag-divider {
+  height: 10px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--text) 0, var(--text) 10px,
+    var(--bg) 10px, var(--bg) 20px
+  );
+  opacity: 0.9;
+}
+
+.flag-divider.small { height: 6px; margin-bottom: 24px; }
