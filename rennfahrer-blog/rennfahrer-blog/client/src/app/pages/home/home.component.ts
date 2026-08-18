@@ -30,4 +30,8 @@ export class HomeComponent implements OnInit {
     if (isNaN(d.getTime())) return value;
     return d.toLocaleDateString('de-CH', { year: 'numeric', month: 'long', day: 'numeric' });
   }
+
+  telHref(phone: string | undefined): string {
+    return 'tel:' + (phone || '').replace(/[^\d+]/g, '');
+  }
 }

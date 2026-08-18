@@ -21,6 +21,10 @@ export class SiteDataService {
     return this.http.post<{ post: Post }>('/api/posts', formData, { withCredentials: true });
   }
 
+  updatePost(id: number | string, formData: FormData): Observable<{ post: Post }> {
+    return this.http.put<{ post: Post }>(`/api/posts/${id}`, formData, { withCredentials: true });
+  }
+
   deletePost(id: number | string): Observable<{ ok: boolean }> {
     return this.http.delete<{ ok: boolean }>(`/api/posts/${id}`, { withCredentials: true });
   }

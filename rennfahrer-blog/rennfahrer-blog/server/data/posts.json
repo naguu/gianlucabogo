@@ -4,7 +4,81 @@
     "tagline": "Kartsport · Young Drivers 2026 · Auto Sport Schweiz",
     "bio": "Mein Name ist Gianluca Bogo, geboren am 14.06.2009. Mit sechs Jahren entstand der grosse Traum, selbst Rennfahrer zu werden - Motorsport ist für mich nicht nur ein Hobby, sondern meine Leidenschaft. 2025 bin ich in den Kartsport eingestiegen und habe jede Möglichkeit genutzt, um schneller und besser zu werden. Bereits 2026 wurde ich als offizieller Teilnehmer in das Young Drivers Projekt 2026 von Auto Sport Schweiz aufgenommen. Der Wechsel vom Kart- in den Automobilsport ist bereits konkret in Vorbereitung, erste Gespräche wurden erfolgreich geführt und wichtige Weichen für den nächsten Karriereschritt sind gestellt. Mit harter Arbeit, grosser Eigenleistung, Disziplin und unerschütterlichem Willen arbeite ich konsequent daran, meinen Weg im Motorsport zu gehen.",
     "photo": "uploads/portrait-gianluca.jpg",
-    "heroPhoto": "uploads/hero-kart-action.jpg"
+    "heroPhoto": "uploads/hero-kart-action.jpg",
+    "achievements": [
+      "Young Driver im Young Drivers Programm 2026 von Auto Sport Schweiz",
+      "Formel-4-Test auf dem Circuit du Laquais mit Jenzer Motorsport",
+      "Driftkurs mit Yves Meier & The Drift Force, inkl. internationalem Event in Lettland",
+      "4 Kartrennen in der Saison 2026, Frankreich & Schweiz"
+    ],
+    "contact": {
+      "address": "Tiergartenstrasse 18\n5012 Schönenwerd",
+      "email": "gl.bogo@hotmail.com",
+      "phone": "077 509 39 23",
+      "instagram": "gianluca_bogo",
+      "facebook": "https://facebook.com",
+      "tiktok": "gianluca_bogo",
+      "youtube": "https://youtube.com"
+    },
+    "partner": {
+      "name": "Autodrom Albisser GmbH",
+      "text": "Ein starker Partner an meiner Seite: Die Autodrom Albisser GmbH aus Däniken unterstützt mich aktiv auf meinem Weg im Motorsport. Inhaber Markus Albisser bringt eine ganz besondere Racing-DNA in unsere Partnerschaft ein: Er ist ehemaliger Rennfahrer und blickt auf eine erfolgreiche Karriere im Formelsport zurück, besonders prägend war seine Zeit in der Schweizer Meisterschaft und im Formel Ford Cup.",
+      "url": "https://autodrom-albisser.ch",
+      "photo": "uploads/post-partner-albisser-2.jpg"
+    },
+    "partnerPitch": {
+      "intro": "Motorsport steht für Leidenschaft, Präzision und Entwicklung. Unterstützer werden Teil einer spannenden Reise in den professionellen Motorsport.",
+      "benefits": [
+        "Sichtbarkeit auf Webseite & Social Media",
+        "Logo auf Kleidung oder Fahrzeug",
+        "Präsenz bei Rennen & Events",
+        "Unterstützung eines jungen Nachwuchstalents"
+      ],
+      "individual": "Gerne erstellen wir auch individuelle Sponsoring-Lösungen, abgestimmt auf Ihre Wünsche und Möglichkeiten. Ob kleines regionales Unternehmen oder grösserer Partner — jede Unterstützung zählt und trägt dazu bei, sportliche Ziele zu erreichen."
+    },
+    "sponsorTiers": [
+      {
+        "name": "Team Bogo Supporter",
+        "price": "ab CHF 100.–",
+        "benefits": [
+          "Willkommensgeschenk",
+          "Exklusives Team-Bogo-Cap",
+          "Einladungen zu Rennen",
+          "Vorteile & Rabatte bei Partnern",
+          "Teil der Team-Bogo-Community"
+        ]
+      },
+      {
+        "name": "Bronze Partner",
+        "price": "ab CHF 500.–",
+        "benefits": [
+          "Logo auf der Webseite",
+          "Erwähnung auf Social Media",
+          "Offizieller Sponsor"
+        ]
+      },
+      {
+        "name": "Silber Partner",
+        "price": "ab CHF 1000.–",
+        "benefits": [
+          "Grössere Logo-Präsenz auf Webseite",
+          "Social-Media-Erwähnungen",
+          "Logo auf Teamkleidung oder Equipment",
+          "Verlinkung zur Firmenwebseite"
+        ]
+      },
+      {
+        "name": "Gold Partner",
+        "price": "ab CHF 5000.–",
+        "benefits": [
+          "Prominente Platzierung auf Fahrzeug und Rennbekleidung",
+          "Regelmässige Social-Media-Präsenz",
+          "Präsentation als Hauptpartner",
+          "Individuelle Werbemöglichkeiten",
+          "Persönliche Partnerschaft und Event-Präsenz"
+        ]
+      }
+    ]
   },
   "posts": [
     {

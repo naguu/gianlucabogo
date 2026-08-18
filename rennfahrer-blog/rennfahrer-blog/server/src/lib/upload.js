@@ -24,4 +24,11 @@ function fileFilter(req, file, cb) {
 
 const upload = multer({ storage, fileFilter, limits: { fileSize: MAX_FILE_SIZE } });
 
-module.exports = { upload, UPLOAD_DIR };
+// path.basename verwirft alle Verzeichnisanteile, damit hier kein Path Traversal moeglich ist
+function removeUploadedFile(relativePath) {
+  if (typeof relativePath !== 'string' || !relativePath.trim()) return;
+  const filePath = path.join(UPLOAD_DIR, path.basename(relativePath));
+  fs.unlink(filePath, () => {});
+}
+
+module.exports = { upload, UPLOAD_DIR, removeUploadedFile };

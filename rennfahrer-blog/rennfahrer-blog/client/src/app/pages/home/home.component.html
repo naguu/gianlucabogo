@@ -51,12 +51,10 @@
       <p class="journey-bio">{{ profile?.bio || 'Platzhalter Biografietext.' }}</p>
     </div>
 
-    <!-- Die Liste ist statisch, sie kann direkt hier im Template ersetzt werden -->
     <ul class="journey-achievements">
-      <li>Young Driver im Young Drivers Programm 2026 von Auto Sport Schweiz</li>
-      <li>Formel-4-Test auf dem Circuit du Laquais mit Jenzer Motorsport</li>
-      <li>Driftkurs mit Yves Meier &amp; The Drift Force, inkl. internationalem Event in Lettland</li>
-      <li>4 Kartrennen in der Saison 2026, Frankreich &amp; Schweiz</li>
+      @for (item of profile?.achievements; track item) {
+        <li>{{ item }}</li>
+      }
     </ul>
   </div>
 </section>
@@ -106,108 +104,93 @@
 
 <div class="flag-divider" aria-hidden="true"></div>
 
-<!-- Partner-Sektion ist statisch, kann direkt hier im Template angepasst werden -->
 <section class="partner" id="partner">
   <div class="partner-inner">
     <h2 class="feed-title">Partner</h2>
 
-    <div class="partner-featured">
-      <div class="partner-featured-photo">
-        <img src="uploads/post-partner-albisser-2.jpg" alt="Gianluca Bogo mit Markus Albisser, Autodrom Albisser">
-      </div>
-      <div class="partner-featured-text">
-        <p class="partner-eyebrow">Aktueller Partner</p>
-        <h3>Autodrom Albisser GmbH</h3>
-        <p>Ein starker Partner an meiner Seite: Die Autodrom Albisser GmbH aus Däniken unterstützt mich aktiv auf meinem Weg im Motorsport. Inhaber Markus Albisser bringt eine ganz besondere Racing-DNA in unsere Partnerschaft ein: Er ist ehemaliger Rennfahrer und blickt auf eine erfolgreiche Karriere im Formelsport zurück, besonders prägend war seine Zeit in der Schweizer Meisterschaft und im Formel Ford Cup.</p>
-        <a href="https://autodrom-albisser.ch" target="_blank" rel="noopener" class="partner-link">Zur Webseite von Autodrom Albisser →</a>
-        <div class="partner-badges">
-          <img src="uploads/logo-young-drivers.png" alt="Young Drivers by Auto Sport Suisse">
-          <img src="uploads/logo-auto-sport-schweiz.png" alt="Auto Sport Schweiz">
+    @if (profile?.partner?.name) {
+      <div class="partner-featured">
+        <div class="partner-featured-photo">
+          <img [src]="profile?.partner?.photo || 'uploads/post-partner-albisser-2.jpg'" [alt]="profile?.partner?.name">
+        </div>
+        <div class="partner-featured-text">
+          <p class="partner-eyebrow">Aktueller Partner</p>
+          <h3>{{ profile?.partner?.name }}</h3>
+          <p>{{ profile?.partner?.text }}</p>
+          @if (profile?.partner?.url) {
+            <a [href]="profile?.partner?.url" target="_blank" rel="noopener" class="partner-link">Zur Webseite von {{ profile?.partner?.name }} →</a>
+          }
+          <div class="partner-badges">
+            <img src="uploads/logo-young-drivers.png" alt="Young Drivers by Auto Sport Suisse">
+            <img src="uploads/logo-auto-sport-schweiz.png" alt="Auto Sport Schweiz">
+          </div>
         </div>
       </div>
-    </div>
+    }
 
     <div class="partner-pitch">
       <h3>Partner werden</h3>
-      <p>Motorsport steht für Leidenschaft, Präzision und Entwicklung. Unterstützer werden Teil einer spannenden Reise in den professionellen Motorsport.</p>
+      <p>{{ profile?.partnerPitch?.intro }}</p>
       <ul class="partner-benefits">
-        <li>Sichtbarkeit auf Webseite &amp; Social Media</li>
-        <li>Logo auf Kleidung oder Fahrzeug</li>
-        <li>Präsenz bei Rennen &amp; Events</li>
-        <li>Unterstützung eines jungen Nachwuchstalents</li>
+        @for (b of profile?.partnerPitch?.benefits; track b) {
+          <li>{{ b }}</li>
+        }
       </ul>
     </div>
 
-    <div class="partner-tiers">
-      <div class="partner-tier">
-        <h4>Team Bogo Supporter</h4>
-        <p class="partner-tier-price">ab CHF 100.–</p>
-        <ul>
-          <li>Willkommensgeschenk</li>
-          <li>Exklusives Team-Bogo-Cap</li>
-          <li>Einladungen zu Rennen</li>
-          <li>Vorteile &amp; Rabatte bei Partnern</li>
-          <li>Teil der Team-Bogo-Community</li>
-        </ul>
+    @if (profile?.sponsorTiers?.length) {
+      <div class="partner-tiers">
+        @for (tier of profile?.sponsorTiers; track tier.name; let last = $last) {
+          <div class="partner-tier" [class.partner-tier-gold]="last">
+            <h4>{{ tier.name }}</h4>
+            <p class="partner-tier-price">{{ tier.price }}</p>
+            <ul>
+              @for (b of tier.benefits; track b) {
+                <li>{{ b }}</li>
+              }
+            </ul>
+          </div>
+        }
       </div>
-      <div class="partner-tier">
-        <h4>Bronze Partner</h4>
-        <p class="partner-tier-price">ab CHF 500.–</p>
-        <ul>
-          <li>Logo auf der Webseite</li>
-          <li>Erwähnung auf Social Media</li>
-          <li>Offizieller Sponsor</li>
-        </ul>
-      </div>
-      <div class="partner-tier">
-        <h4>Silber Partner</h4>
-        <p class="partner-tier-price">ab CHF 1000.–</p>
-        <ul>
-          <li>Grössere Logo-Präsenz auf Webseite</li>
-          <li>Social-Media-Erwähnungen</li>
-          <li>Logo auf Teamkleidung oder Equipment</li>
-          <li>Verlinkung zur Firmenwebseite</li>
-        </ul>
-      </div>
-      <div class="partner-tier partner-tier-gold">
-        <h4>Gold Partner</h4>
-        <p class="partner-tier-price">ab CHF 5000.–</p>
-        <ul>
-          <li>Prominente Platzierung auf Fahrzeug und Rennbekleidung</li>
-          <li>Regelmässige Social-Media-Präsenz</li>
-          <li>Präsentation als Hauptpartner</li>
-          <li>Individuelle Werbemöglichkeiten</li>
-          <li>Persönliche Partnerschaft und Event-Präsenz</li>
-        </ul>
-      </div>
-    </div>
+    }
 
-    <p class="partner-individual">Gerne erstellen wir auch individuelle Sponsoring-Lösungen, abgestimmt auf Ihre Wünsche und Möglichkeiten. Ob kleines regionales Unternehmen oder grösserer Partner — jede Unterstützung zählt und trägt dazu bei, sportliche Ziele zu erreichen.</p>
+    <p class="partner-individual">{{ profile?.partnerPitch?.individual }}</p>
 
-    <a href="mailto:gl.bogo@hotmail.com?subject=Partner%20werden" class="partner-cta">Partner werden</a>
+    <a [href]="'mailto:' + (profile?.contact?.email || '') + '?subject=Partner%20werden'" class="partner-cta">Partner werden</a>
   </div>
 </section>
 
 <div class="flag-divider" aria-hidden="true"></div>
 
-<!-- Kontakt-Sektion ist statisch, kann direkt hier im Template angepasst werden -->
 <section class="contact" id="kontakt">
   <div class="contact-inner">
     <h2 class="feed-title">Kontakt</h2>
     <div class="contact-grid">
       <div class="contact-block">
-        <h3>Gianluca Bogo</h3>
-        <p>Tiergartenstrasse 18<br>5012 Schönenwerd</p>
-        <p><a href="mailto:gl.bogo@hotmail.com">gl.bogo&#64;hotmail.com</a></p>
-        <p><a href="tel:+41775093923">077 509 39 23</a></p>
+        <h3>{{ profile?.name }}</h3>
+        <p class="contact-address">{{ profile?.contact?.address }}</p>
+        @if (profile?.contact?.email) {
+          <p><a [href]="'mailto:' + profile?.contact?.email">{{ profile?.contact?.email }}</a></p>
+        }
+        @if (profile?.contact?.phone) {
+          <p><a [href]="telHref(profile?.contact?.phone)">{{ profile?.contact?.phone }}</a></p>
+        }
       </div>
       <div class="contact-block">
         <h3>Social Media</h3>
         <ul class="contact-social">
-          <li><a href="https://instagram.com/gianluca_bogo" target="_blank" rel="noopener">Instagram — gianluca_bogo</a></li>
-          <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook — Gianluca Bogo</a></li>
-          <li><a href="https://tiktok.com/@gianluca_bogo" target="_blank" rel="noopener">TikTok — gianluca_bogo</a></li>
-          <li><a href="https://youtube.com" target="_blank" rel="noopener">YouTube — GianlucaBogo</a></li>
+          @if (profile?.contact?.instagram) {
+            <li><a [href]="'https://instagram.com/' + profile?.contact?.instagram" target="_blank" rel="noopener">Instagram — {{ profile?.contact?.instagram }}</a></li>
+          }
+          @if (profile?.contact?.facebook) {
+            <li><a [href]="profile?.contact?.facebook" target="_blank" rel="noopener">Facebook — {{ profile?.name }}</a></li>
+          }
+          @if (profile?.contact?.tiktok) {
+            <li><a [href]="'https://tiktok.com/@' + profile?.contact?.tiktok" target="_blank" rel="noopener">TikTok — {{ profile?.contact?.tiktok }}</a></li>
+          }
+          @if (profile?.contact?.youtube) {
+            <li><a [href]="profile?.contact?.youtube" target="_blank" rel="noopener">YouTube — {{ profile?.name }}</a></li>
+          }
         </ul>
       </div>
     </div>

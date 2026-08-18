@@ -585,6 +585,10 @@
   color: var(--text);
 }
 
+.contact-address {
+  white-space: pre-line;
+}
+
 .contact-block a {
   color: var(--text);
   text-decoration: none;

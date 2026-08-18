@@ -86,6 +86,23 @@ button[type="submit"]:disabled { opacity: 0.6; cursor: default; }
   font-size: 13px;
 }
 
+.hint {
+  margin: -6px 0 0;
+  color: #777;
+  font-size: 12px;
+}
+
+.tier-block {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 14px;
+  margin-top: 14px;
+}
+
+.tier-block .delete {
+  margin-top: 12px;
+}
+
 .post-row {
   border-bottom: 1px solid #eee;
   padding: 12px 0;
@@ -97,6 +114,22 @@ button[type="submit"]:disabled { opacity: 0.6; cursor: default; }
 
 .post-row:last-child { border-bottom: none; }
 
+.post-row-actions {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.post-row-actions button {
+  background: none;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #1a1a1a;
+}
+
 .delete {
   color: #e10600;
   background: none;
@@ -107,6 +140,64 @@ button[type="submit"]:disabled { opacity: 0.6; cursor: default; }
 }
 
 .delete:disabled { opacity: 0.6; cursor: default; }
+
+.post-edit {
+  border-bottom: 1px solid #eee;
+  padding: 4px 0 20px;
+  background: #fafafa;
+}
+
+.edit-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.edit-image-item {
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+}
+
+.edit-image-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.edit-image-item input[type="checkbox"] {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.post-edit-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.post-edit-actions button:first-child {
+  padding: 10px 18px;
+  background: #e10600;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.post-edit-actions button:last-child {
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 18px;
+  font-size: 14px;
+  cursor: pointer;
+}
 
 @media (max-width: 480px) {
   .admin-page { padding: 20px 16px; }

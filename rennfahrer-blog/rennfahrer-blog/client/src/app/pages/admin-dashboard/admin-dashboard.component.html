@@ -35,6 +35,128 @@
     </section>
 
     <section class="box">
+      <h2>Werdegang-Highlights</h2>
+      <p class="hint">Ein Punkt pro Zeile, erscheint als Liste neben der Bio.</p>
+      <form (ngSubmit)="saveAchievements()">
+        <label for="achievements">Highlights</label>
+        <textarea id="achievements" name="achievements" rows="5" [(ngModel)]="achievementsText"></textarea>
+
+        <button type="submit" [disabled]="achievementsSaving">
+          {{ achievementsSaving ? 'Speichere…' : 'Highlights speichern' }}
+        </button>
+        @if (achievementsMessage) {
+          <p class="message">{{ achievementsMessage }}</p>
+        }
+      </form>
+    </section>
+
+    <section class="box">
+      <h2>Kontakt</h2>
+      <form (ngSubmit)="saveContact()">
+        <label for="address">Adresse</label>
+        <textarea id="address" name="address" rows="2" [(ngModel)]="profile.contact.address"></textarea>
+
+        <label for="email">E-Mail</label>
+        <input id="email" type="text" name="email" [(ngModel)]="profile.contact.email">
+
+        <label for="phone">Telefon</label>
+        <input id="phone" type="text" name="phone" [(ngModel)]="profile.contact.phone">
+
+        <label for="instagram">Instagram, nur Benutzername (z. B. gianluca_bogo)</label>
+        <input id="instagram" type="text" name="instagram" [(ngModel)]="profile.contact.instagram">
+
+        <label for="tiktok">TikTok, nur Benutzername (z. B. gianluca_bogo)</label>
+        <input id="tiktok" type="text" name="tiktok" [(ngModel)]="profile.contact.tiktok">
+
+        <label for="facebook">Facebook, vollständiger Link</label>
+        <input id="facebook" type="text" name="facebook" [(ngModel)]="profile.contact.facebook">
+
+        <label for="youtube">YouTube, vollständiger Link</label>
+        <input id="youtube" type="text" name="youtube" [(ngModel)]="profile.contact.youtube">
+
+        <button type="submit" [disabled]="contactSaving">
+          {{ contactSaving ? 'Speichere…' : 'Kontakt speichern' }}
+        </button>
+        @if (contactMessage) {
+          <p class="message">{{ contactMessage }}</p>
+        }
+      </form>
+    </section>
+
+    <section class="box">
+      <h2>Partner (aktueller Sponsor)</h2>
+      <form (ngSubmit)="savePartner(partnerPhotoInput)">
+        <label for="partnerName">Name</label>
+        <input id="partnerName" type="text" name="partnerName" [(ngModel)]="profile.partner.name">
+
+        <label for="partnerText">Text</label>
+        <textarea id="partnerText" name="partnerText" rows="4" [(ngModel)]="profile.partner.text"></textarea>
+
+        <label for="partnerUrl">Webseite</label>
+        <input id="partnerUrl" type="text" name="partnerUrl" [(ngModel)]="profile.partner.url">
+
+        <label for="partnerPhoto">Foto ersetzen</label>
+        <input id="partnerPhoto" type="file" accept="image/*" #partnerPhotoInput>
+
+        <button type="submit" [disabled]="partnerSaving">
+          {{ partnerSaving ? 'Speichere…' : 'Partner speichern' }}
+        </button>
+        @if (partnerMessage) {
+          <p class="message">{{ partnerMessage }}</p>
+        }
+      </form>
+    </section>
+
+    <section class="box">
+      <h2>Partner werden</h2>
+      <form (ngSubmit)="savePartnerPitch()">
+        <label for="pitchIntro">Einleitungstext</label>
+        <textarea id="pitchIntro" name="pitchIntro" rows="3" [(ngModel)]="profile.partnerPitch.intro"></textarea>
+
+        <label for="pitchBenefits">Vorteile, ein Punkt pro Zeile</label>
+        <textarea id="pitchBenefits" name="pitchBenefits" rows="5" [(ngModel)]="partnerBenefitsText"></textarea>
+
+        <label for="pitchIndividual">Text zu individuellen Partnerschaften</label>
+        <textarea id="pitchIndividual" name="pitchIndividual" rows="3" [(ngModel)]="profile.partnerPitch.individual"></textarea>
+
+        <button type="submit" [disabled]="pitchSaving">
+          {{ pitchSaving ? 'Speichere…' : 'Texte speichern' }}
+        </button>
+        @if (pitchMessage) {
+          <p class="message">{{ pitchMessage }}</p>
+        }
+      </form>
+    </section>
+
+    <section class="box">
+      <h2>Sponsoring-Pakete</h2>
+      <form (ngSubmit)="saveSponsorTiers()">
+        @for (tier of tiers; track $index) {
+          <div class="tier-block">
+            <label>Paketname</label>
+            <input type="text" name="tierName{{ $index }}" [(ngModel)]="tier.name">
+
+            <label>Preis</label>
+            <input type="text" name="tierPrice{{ $index }}" [(ngModel)]="tier.price">
+
+            <label>Leistungen, ein Punkt pro Zeile</label>
+            <textarea rows="4" name="tierBenefits{{ $index }}" [(ngModel)]="tier.benefitsText"></textarea>
+
+            <button type="button" class="delete" (click)="removeTier($index)">Paket entfernen</button>
+          </div>
+        }
+        <button type="button" (click)="addTier()">+ Paket hinzufügen</button>
+
+        <button type="submit" [disabled]="tiersSaving">
+          {{ tiersSaving ? 'Speichere…' : 'Sponsoring-Pakete speichern' }}
+        </button>
+        @if (tiersMessage) {
+          <p class="message">{{ tiersMessage }}</p>
+        }
+      </form>
+    </section>
+
+    <section class="box">
       <h2>Neuer Beitrag</h2>
       <form (ngSubmit)="addPost(imagesInput)">
         <label for="title">Titel</label>
@@ -69,14 +191,55 @@
             <strong>{{ post.title }}</strong>
             <div class="muted">{{ post.date }}, {{ post.images.length }} Bild(er)</div>
           </div>
-          <button
-            type="button"
-            class="delete"
-            [disabled]="deletingId === post.id"
-            (click)="deletePost(post)">
-            {{ deletingId === post.id ? 'Lösche…' : 'Löschen' }}
-          </button>
+          <div class="post-row-actions">
+            <button type="button" (click)="startEdit(post)">Bearbeiten</button>
+            <button
+              type="button"
+              class="delete"
+              [disabled]="deletingId === post.id"
+              (click)="deletePost(post)">
+              {{ deletingId === post.id ? 'Lösche…' : 'Löschen' }}
+            </button>
+          </div>
         </div>
+
+        @if (editingPost && editingPost.id === post.id) {
+          <div class="post-edit">
+            <label>Titel</label>
+            <input type="text" name="editTitle" [(ngModel)]="editForm.title">
+
+            <label>Datum</label>
+            <input type="date" name="editDate" [(ngModel)]="editForm.date">
+
+            <label>Text</label>
+            <textarea rows="6" name="editText" [(ngModel)]="editForm.text"></textarea>
+
+            @if (post.images.length) {
+              <label>Bestehende Bilder, anhaken zum Entfernen</label>
+              <div class="edit-images">
+                @for (img of post.images; track img) {
+                  <label class="edit-image-item">
+                    <input type="checkbox" (change)="toggleRemoveImage(img)">
+                    <img [src]="img" alt="">
+                  </label>
+                }
+              </div>
+            }
+
+            <label>Neue Bilder hinzufügen</label>
+            <input type="file" accept="image/*" multiple #editImagesInput>
+
+            <div class="post-edit-actions">
+              <button type="button" [disabled]="editSaving" (click)="saveEdit(editImagesInput)">
+                {{ editSaving ? 'Speichere…' : 'Speichern' }}
+              </button>
+              <button type="button" (click)="cancelEdit()">Abbrechen</button>
+            </div>
+            @if (editMessage) {
+              <p class="message">{{ editMessage }}</p>
+            }
+          </div>
+        }
       }
     </section>
   }
