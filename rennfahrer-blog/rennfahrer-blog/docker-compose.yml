@@ -17,6 +17,25 @@ services:
     container_name: rennfahrer-web
     depends_on:
       - api
+    # Nur auf localhost binden: TLS-Terminierung und Domain-Routing macht der
+    # vorgeschaltete Reverse Proxy auf dem Host, dieser Port darf nicht direkt
+    # aus dem Internet erreichbar sein (sonst wird die TLS/Auth-Kette umgangen).
+    # Reverse Proxy dann auf http://127.0.0.1:8080 als Ziel konfigurieren.
     ports:
-      - "8080:80"
+      - "127.0.0.1:8080:80"
     restart: unless-stopped
+    # Laeuft der Reverse Proxy (Nginx Proxy Manager, Traefik, Caddy, ...) selbst als
+    # Docker-Container, ist ein gemeinsames Docker-Netzwerk oft die sauberere Alternative
+    # zur obigen "ports"-Zeile: kein Port auf dem Host noetig, der Proxy erreicht diesen
+    # Service direkt unter http://web:80. Dazu die "ports"-Zeile oben entfernen und
+    # stattdessen aktivieren:
+    #
+    # networks:
+    #   - default
+    #   - proxy
+    #
+    # ...sowie am Dateiende ergaenzen:
+    #
+    # networks:
+    #   proxy:
+    #     external: true

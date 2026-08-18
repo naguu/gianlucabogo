@@ -11,7 +11,8 @@ const postsRoutes = require('./routes/posts.routes');
 
 const app = express();
 
-app.set('trust proxy', 1);
+// 2 Hops: der vorgeschaltete Reverse Proxy (TLS-Terminierung) + der nginx-Container aus diesem Setup
+app.set('trust proxy', 2);
 
 app.use(
   cors({
