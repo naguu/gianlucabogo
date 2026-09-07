@@ -9,7 +9,7 @@
       "Young Driver im Young Drivers Programm 2026 von Auto Sport Schweiz",
       "Formel-4-Test auf dem Circuit du Laquais mit Jenzer Motorsport",
       "Driftkurs mit Yves Meier & The Drift Force, inkl. internationalem Event in Lettland",
-      "4 Kartrennen in der Saison 2026, Frankreich & Schweiz"
+      "5 Kartrennen in der Saison 2026, Frankreich & Schweiz"
     ],
     "contact": {
       "address": "Tiergartenstrasse 18\n5012 Schönenwerd",
@@ -21,20 +21,21 @@
       "youtube": "https://youtube.com"
     },
     "partner": {
-      "name": "Autodrom Albisser GmbH",
-      "text": "Ein starker Partner an meiner Seite: Die Autodrom Albisser GmbH aus Däniken unterstützt mich aktiv auf meinem Weg im Motorsport. Inhaber Markus Albisser bringt eine ganz besondere Racing-DNA in unsere Partnerschaft ein: Er ist ehemaliger Rennfahrer und blickt auf eine erfolgreiche Karriere im Formelsport zurück, besonders prägend war seine Zeit in der Schweizer Meisterschaft und im Formel Ford Cup.",
-      "url": "https://autodrom-albisser.ch",
+      "name": "",
+      "text": "",
+      "url": "",
       "photo": "uploads/post-partner-albisser-2.jpg"
     },
     "partnerPitch": {
-      "intro": "Motorsport steht für Leidenschaft, Präzision und Entwicklung. Unterstützer werden Teil einer spannenden Reise in den professionellen Motorsport.",
+      "intro": "Motorsport steht für Leidenschaft, Präzision und kontinuierliche Entwicklung. Unterstützer werden Teil einer spannenden Reise in den professionellen Motorsport und begleiten uns auf unserem Weg zu neuen sportlichen Zielen. Mit Engagement, Teamgeist und voller Motivation stellen wir uns jeder Herausforderung auf und neben der Rennstrecke. Gemeinsam schaffen wir Erlebnisse, die begeistern, und bieten unseren Partnern die Möglichkeit, ihre Marke in einem dynamischen und emotionalen Umfeld zu präsentieren. Werden Sie Teil unseres Teams und unserer Motorsport-Reise.",
       "benefits": [
         "Sichtbarkeit auf Webseite & Social Media",
-        "Logo auf Kleidung oder Fahrzeug",
+        "Logo auf Kleidung und/ oder Fahrzeug",
         "Präsenz bei Rennen & Events",
+        "Exklusive Sponsoren Events",
         "Unterstützung eines jungen Nachwuchstalents"
       ],
-      "individual": "Gerne erstellen wir auch individuelle Sponsoring-Lösungen, abgestimmt auf Ihre Wünsche und Möglichkeiten. Ob kleines regionales Unternehmen oder grösserer Partner — jede Unterstützung zählt und trägt dazu bei, sportliche Ziele zu erreichen."
+      "individual": "Gerne erstellen wir auch individuelle Sponsoring-Lösungen, abgestimmt auf Ihre Wünsche und Möglichkeiten. Ob kleines regionales Unternehmen oder grösserer Partner — jede Unterstützung hilft!"
     },
     "sponsorTiers": [
       {
@@ -69,7 +70,7 @@
       },
       {
         "name": "Gold Partner",
-        "price": "ab CHF 5000.–",
+        "price": "ab CHF 10000.–",
         "benefits": [
           "Prominente Platzierung auf Fahrzeug und Rennbekleidung",
           "Regelmässige Social-Media-Präsenz",
@@ -82,14 +83,11 @@
   },
   "posts": [
     {
-      "id": 1,
-      "title": "Neuer Partner: Autodrom Albisser",
-      "date": "2026-03-07",
-      "text": "Ein starker Partner an meiner Seite: Die Autodrom Albisser GmbH aus Däniken unterstützt mich aktiv auf meinem Weg im Motorsport. Inhaber Markus Albisser bringt eine ganz besondere Racing-DNA in unsere Partnerschaft ein - er ist ehemaliger Rennfahrer und blickt auf eine erfolgreiche Karriere im Formelsport zurück, besonders prägend war seine Zeit in der Schweizer Meisterschaft und im Formel Ford Cup. Vielen Dank an Markus und das ganze Team von Autodrom Albisser für das Vertrauen, den wertvollen Input und den grossartigen Support!",
-      "images": [
-        "uploads/post-partner-albisser-1.jpg",
-        "uploads/post-partner-albisser-2.jpg"
-      ]
+      "id": 1788009165911,
+      "title": "Drites Saisonrennen in Mirecourt Frankreich",
+      "date": "2026-08-23",
+      "text": "Das dritte Rennen der Saison – und was für ein tolles Rennwochenende! Mit vielen spannenden Zwei- und Dreikämpfen auf der Strecke gab es jede Menge packendes Racing. Trotz eines Schadens an der Hinterachse haben wir bis zur letzten Runde gekämpft und alles gegeben.\r\n\r\nEin insgesamt tolles Rennwochenende, das vor allem im ersten Rennlauf mit einem starken P6 belohnt wurde!",
+      "images": []
     },
     {
       "id": 2,
@@ -106,7 +104,7 @@
       "id": 3,
       "title": "Saisonstart in Vesoul",
       "date": "2026-04-19",
-      "text": "Los geht's: Am 19. April ist meine Kartsaison 2026 mit dem ersten Rennen auf dem Circuit de la Vallée in Vesoul (Frankreich) gestartet. Nach Monaten im Simulator und im Athletiktraining war es ein besonderes Gefühl, endlich wieder im Renntrimm auf der Strecke zu stehen.",
+      "text": "Los geht's: Am 19. April ist meine Kartsaison 2026 mit dem ersten Rennen auf dem Circuit de la Vallée in Vesoul (Frankreich) gestartet. Nach Monaten im Simulator und im Athletiktraining war es ein besonderes Gefühl, endlich wieder im Renntrimm auf der Strecke zu stehen.\r\n\r\nEin Rennwochenende voller Herausforderungen. Probleme mit der Bremszange machten einen schnellen Ersatz notwendig.\r\nEine unheimlich tolle Strecke – doch ohne Training am Samstag ging es direkt ins Rennen.\r\nTrotz der schwierigen Ausgangslage kämpfte ich mich stark und erfolgreich durch die Rennen und sicherte mir einen hart erkämpften 10. Platz.\r\n\r\nEin starkes Wochenende, das gezeigt hat: Kämpfen lohnt sich!",
       "images": [
         "uploads/post-vesoul-1.jpg",
         "uploads/post-vesoul-2.jpg"
@@ -125,7 +123,7 @@
     },
     {
       "id": 5,
-      "title": "Athletiktraining mit Adrian Zaugg",
+      "title": "Athletiktraining mit Adrian Zaugg und Sport-test in der Swiss Sports Clinic",
       "date": "2026-06-10",
       "text": "Mein Athletiktraining mit den Besten der Schweiz: Kein Geringerer als Ex-Rennprofi Adrian Zaugg betreut mich als exklusiver Fitness-Coach. Auf dem Programm standen ein medizinischer Profi-Check in der Swiss Sports Clinic in Bern zur exakten Leistungsdiagnostik, ein FMS-Test zur Analyse meiner Bewegungsabläufe und ein individuelles Target-Training für Nacken, Rumpf und Core, damit ich den extremen Fliehkräften im Formel-4-Auto problemlos standhalte.",
       "images": [
@@ -149,7 +147,7 @@
       "id": 7,
       "title": "Drift Masters Lettland mit The Drift Force",
       "date": "2026-07-25",
-      "text": "Ein besonderes Erlebnis: Am 24. und 25. Juli durfte ich das Rennteam von Yves Meier, The Drift Force, nach Lettland zu einem internationalen Drift-Event begleiten und hautnah miterleben, wie auf höchstem Niveau performt wird.",
+      "text": "Am 24. und 25. Juli durfte ich das Profi-Rennteam The Drift Force nach Riga, Lettland, zur Drift Masters begleiten, bei der das Team an den Start ging. Es war ein großartiges Erlebnis mit vielen spannenden Einblicken in den professionellen Motorsport und die Welt des Driftens. Ein Wochenende voller neuer Eindrücke und Erfahrungen, das ich so schnell nicht vergessen werde!",
       "images": [
         "uploads/post-lettland-1.jpg",
         "uploads/post-lettland-2.jpg",
@@ -160,20 +158,20 @@
       "id": 8,
       "title": "Zweites Saisonrennen in Lévier",
       "date": "2026-08-09",
-      "text": "Am 9. August ging es weiter im Kartkalender: Zweites Saisonrennen auf dem Circuit de l'Enclos in Lévier (Frankreich). Mit jedem Rennwochenende sammle ich mehr Erfahrung und komme meinem Ziel, dem Wechsel in den Automobilsport, einen Schritt näher.",
+      "text": "Am 9. August ging es weiter im Kartkalender: Zweites Saisonrennen auf dem Circuit de l'Enclos in Lévier (Frankreich). Mit jedem Rennwochenende sammle ich mehr Erfahrung und komme meinem Ziel, dem Wechsel in den Automobilsport, einen Schritt näher.\r\n\r\nEin schwieriges Rennwochenende. Nach vorherigen Motorenproblemen war am Samstag wieder kein Training möglich – trotzdem blieb ich optimistisch.\r\n\r\nNicht alles lief nach Plan. Nach starken Fights schied ich im Finale nach dem verlorenen zweiten Kampf in Runde 4 aus und landete im Reifenstapel\r\n\r\nTrotzdem: Platz 15. Ein hart erkämpftes Ergebnis und ein Wochenende, aus dem ich viel mitnehme durfte.",
       "images": [
-        "uploads/post-levier-1.jpg",
-        "uploads/post-levier-2.jpg"
+        "uploads/post-levier-1.jpg"
       ]
     },
     {
       "id": 9,
-      "title": "Nächste Ziele: Formel-4-Test und Saisonfinale",
+      "title": "Formel-4-Test und Saisonfinale",
       "date": "2026-08-12",
       "text": "Der Kalender bleibt spannend: Am 23. August steht das dritte Saisonrennen in Mirecourt an, bevor am 25. August das sportliche Highlight des Jahres wartet - der Formel-4-Test auf dem 2,4 Kilometer langen Circuit du Laquais in Frankreich. In Kooperation mit Jenzer Motorsport absolvieren zehn ausgewählte Piloten rund 150 Testkilometer, die Rundenzeiten und Telemetriedaten werden von Teamchef Andreas Jenzer und seinen Ingenieuren akribisch analysiert. Am 24. Oktober folgt auf der Kart-Bahn Wohlen das Saisonfinale 2026.",
       "images": [
-        "uploads/post-formel4-1.jpg",
-        "uploads/post-nextgoals-2.jpg"
+        "uploads/img_1787999573639_87806f36.jpg",
+        "uploads/img_1787999573660_79d83685.jpg",
+        "uploads/img_1787999573691_cf244ff3.jpg"
       ]
     }
   ]
