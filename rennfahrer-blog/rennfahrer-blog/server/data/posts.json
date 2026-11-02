@@ -12,7 +12,7 @@
       "5 Kartrennen in der Saison 2026, Frankreich & Schweiz"
     ],
     "contact": {
-      "address": "Tiergartenstrasse 18\n5012 Schönenwerd",
+      "address": "",
       "email": "gl.bogo@hotmail.com",
       "phone": "077 509 39 23",
       "instagram": "gianluca_bogo",
@@ -27,12 +27,13 @@
       "photo": "uploads/post-partner-albisser-2.jpg"
     },
     "partnerPitch": {
-      "intro": "Motorsport steht für Leidenschaft, Präzision und kontinuierliche Entwicklung. Unterstützer werden Teil einer spannenden Reise in den professionellen Motorsport und begleiten uns auf unserem Weg zu neuen sportlichen Zielen. Mit Engagement, Teamgeist und voller Motivation stellen wir uns jeder Herausforderung auf und neben der Rennstrecke. Gemeinsam schaffen wir Erlebnisse, die begeistern, und bieten unseren Partnern die Möglichkeit, ihre Marke in einem dynamischen und emotionalen Umfeld zu präsentieren. Werden Sie Teil unseres Teams und unserer Motorsport-Reise.",
+      "intro": "Im Motorsport sind Partnerschaften und Sponsoring ein wichtiger Bestandteil. Viele Fahrer sind auf die Unterstützung von Sponsoren und Partnern angewiesen, um ihre sportlichen Ziele zu erreichen.\n\nMit Ihrer Unterstützung kann ich meinem Traum vom Automobilsport einen grossen Schritt näherkommen. Gleichzeitig bietet sich die Möglichkeit, eine langfristige und erfolgreiche Partnerschaft aufzubauen, von der beide Seiten profitieren.",
       "benefits": [
         "Sichtbarkeit auf Webseite & Social Media",
         "Logo auf Kleidung und/ oder Fahrzeug",
         "Präsenz bei Rennen & Events",
         "Exklusive Sponsoren Events",
+        "Partnerschaften mit anderen Sponsoren",
         "Unterstützung eines jungen Nachwuchstalents"
       ],
       "individual": "Gerne erstellen wir auch individuelle Sponsoring-Lösungen, abgestimmt auf Ihre Wünsche und Möglichkeiten. Ob kleines regionales Unternehmen oder grösserer Partner — jede Unterstützung hilft!"
@@ -51,32 +52,40 @@
       },
       {
         "name": "Bronze Partner",
-        "price": "ab CHF 500.–",
+        "price": "von 1000Fr. - 15000Fr.",
         "benefits": [
-          "Logo auf der Webseite",
-          "Erwähnung auf Social Media",
-          "Offizieller Sponsor"
+          "Logo klein auf der Rennbekleidung und Teambekleidung",
+          "Erwähnungen in ausgewählten Social-Media-Beiträgen",
+          "Produktbezogene Beiträge bei passender Zusammenarbeit",
+          "Einladung zu Events & Veranstaltungen",
+          "Persönlicher Kontakt & Zusammenarbeit",
+          "Unterstützung auf kleinerer Ebene"
         ]
       },
       {
         "name": "Silber Partner",
-        "price": "ab CHF 1000.–",
+        "price": "von 20000Fr. - 35000Fr.",
         "benefits": [
-          "Grössere Logo-Präsenz auf Webseite",
-          "Social-Media-Erwähnungen",
-          "Logo auf Teamkleidung oder Equipment",
-          "Verlinkung zur Firmenwebseite"
+          "Logo gut sichtbar auf Fahrzeug, Rennanzug und Teambekleidung",
+          "Platzierung z. B. Brust oder Hüfte",
+          "Regelmässige Erwähnungen auf Social Media",
+          "Gemeinsame kleinere Events & Aktionen",
+          "Möglichkeit zur Kundenpräsentation",
+          "Persönliche Zusammenarbeit & Austausch",
+          "Hohe Sichtbarkeit"
         ]
       },
       {
         "name": "Gold Partner",
-        "price": "ab CHF 10000.–",
+        "price": "ab 40000Fr.",
         "benefits": [
-          "Prominente Platzierung auf Fahrzeug und Rennbekleidung",
-          "Regelmässige Social-Media-Präsenz",
-          "Präsentation als Hauptpartner",
-          "Individuelle Werbemöglichkeiten",
-          "Persönliche Partnerschaft und Event-Präsenz"
+          "Exklusiver Hauptpartner",
+          "Logo prominent auf Fahrzeug, Rennbekleidung, Teambekleidung",
+          "Präsenz auf Social Media & allen wichtigen Kanälen",
+          "Gemeinsame Events & Workshops",
+          "Enge und langfristige Zusammenarbeit",
+          "Individuelle Sonderleistungen möglich",
+          "Höchste Sichtbarkeit & Präsenz"
         ]
       }
     ]
@@ -86,7 +95,7 @@
       "id": 1788009165911,
       "title": "Drites Saisonrennen in Mirecourt Frankreich",
       "date": "2026-08-23",
-      "text": "Das dritte Rennen der Saison – und was für ein tolles Rennwochenende! Mit vielen spannenden Zwei- und Dreikämpfen auf der Strecke gab es jede Menge packendes Racing. Trotz eines Schadens an der Hinterachse haben wir bis zur letzten Runde gekämpft und alles gegeben.\r\n\r\nEin insgesamt tolles Rennwochenende, das vor allem im ersten Rennlauf mit einem starken P6 belohnt wurde!",
+      "text": "Das dritte Rennen der Saison, und was für ein tolles Rennwochenende! Mit vielen spannenden Zwei und Dreikämpfen auf der Strecke gab es jede Menge packendes Racing. Trotz eines Schadens an der Hinterachse haben mein Team und ich bis zur letzten Runde gekämpft und alles gegeben.\r\n\r\nEin insgesamt tolles Rennwochenende, das vor allem im ersten Rennlauf mit einem starken P6 belohnt wurde!",
       "images": []
     },
     {
@@ -165,9 +174,9 @@
     },
     {
       "id": 9,
-      "title": "Formel-4-Test und Saisonfinale",
+      "title": "Formel-4-Test mit Jenzer Motorspsort",
       "date": "2026-08-12",
-      "text": "Der Kalender bleibt spannend: Am 23. August steht das dritte Saisonrennen in Mirecourt an, bevor am 25. August das sportliche Highlight des Jahres wartet - der Formel-4-Test auf dem 2,4 Kilometer langen Circuit du Laquais in Frankreich. In Kooperation mit Jenzer Motorsport absolvieren zehn ausgewählte Piloten rund 150 Testkilometer, die Rundenzeiten und Telemetriedaten werden von Teamchef Andreas Jenzer und seinen Ingenieuren akribisch analysiert. Am 24. Oktober folgt auf der Kart-Bahn Wohlen das Saisonfinale 2026.",
+      "text": "Eines der Highlights dieses Jahres! \r\n\r\nIch durfte gemeinsam mit Jenzer Motorsport, einem Schweizer Formel-4-Team, einen Formel-4-Rennwagen auf dem Circuit du Laquais, in Frankreich testen und fahren.\r\n\r\nAm Montag stand zunächst das Seat Fitting auf dem Programm, bevor ich zum ersten Mal in einem Formel-4-Rennwagen Platz nehmen durfte. Und wow, was für ein Gefühl! \r\n\r\nAm darauffolgenden Tag ging es dann endlich auf die Strecke. Der erste Moment hinter dem Steuer eines Formel-4-Boliden ist etwas, das ich niemals vergessen werde. Mein Grinsen war natürlich riesig!\r\n\r\nNeben dem Fahren durften wir gemeinsam mit den Mechanikern unsere Runden analysieren und herausfinden, wo wir uns noch verbessern können. Dadurch konnte ich nicht nur auf der Strecke, sondern auch neben ihr viel dazulernen.\r\n\r\nEin unglaublicher Tag und eine Erfahrung, von der ich nie gedacht hätte, dass ich sie bereits nach nur einem Jahr im Kartsport machen darf.\r\n\r\nEin riesiges Dankeschön an Jenzer Motorsport für diese Gelegenheit!",
       "images": [
         "uploads/img_1787999573639_87806f36.jpg",
         "uploads/img_1787999573660_79d83685.jpg",
