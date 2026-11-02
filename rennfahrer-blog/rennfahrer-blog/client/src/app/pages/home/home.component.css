@@ -360,10 +360,7 @@
   color: var(--text);
   margin: 0 0 16px;
   white-space: pre-wrap;
-  display: -webkit-box;
-  -webkit-line-clamp: 6;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  overflow-wrap: anywhere;
 }
 
 .post-images {
