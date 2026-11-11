@@ -301,6 +301,89 @@
   margin: 16px 0 0;
 }
 
+/* Ziele 2027 */
+
+.goals {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 32px;
+}
+
+.goals-intro {
+  max-width: 70ch;
+  margin-bottom: 40px;
+}
+
+.goals-intro p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0 0 16px;
+}
+
+.goals-subtitle {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  margin: 0 0 20px;
+}
+
+.goals-list {
+  list-style: none;
+  counter-reset: goal;
+  margin: 0 0 32px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.goals-list li {
+  counter-increment: goal;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 2px solid var(--accent);
+  padding: 24px;
+}
+
+.goals-list li::before {
+  content: counter(goal, decimal-leading-zero);
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--accent);
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.goals-list h4 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin: 0 0 8px;
+}
+
+.goals-list p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.goals-outro {
+  max-width: 70ch;
+  font-size: 15px;
+  line-height: 1.7;
+  border-left: 2px solid var(--accent-2);
+  padding-left: 14px;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .goals { padding: 48px 16px; }
+}
+
 /* News Feed */
 
 .feed {
