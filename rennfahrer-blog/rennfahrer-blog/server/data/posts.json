@@ -16,9 +16,9 @@
       "email": "gl.bogo@hotmail.com",
       "phone": "077 509 39 23",
       "instagram": "gianluca_bogo",
-      "facebook": "https://facebook.com",
+      "facebook": "https://www.facebook.com/share/1DkSBDTPmc/",
       "tiktok": "gianluca_bogo",
-      "youtube": "https://youtube.com"
+      "youtube": "https://www.youtube.com/@GianlucaBogo"
     },
     "partner": {
       "name": "",
@@ -52,7 +52,7 @@
       },
       {
         "name": "Bronze Partner",
-        "price": "von 1000Fr. - 15000Fr.",
+        "price": "ab CHF 1500.-",
         "benefits": [
           "Logo klein auf der Rennbekleidung und Teambekleidung",
           "Erwähnungen in ausgewählten Social-Media-Beiträgen",
@@ -64,7 +64,7 @@
       },
       {
         "name": "Silber Partner",
-        "price": "von 20000Fr. - 35000Fr.",
+        "price": "ab CHF 5000.-",
         "benefits": [
           "Logo gut sichtbar auf Fahrzeug, Rennanzug und Teambekleidung",
           "Platzierung z. B. Brust oder Hüfte",
@@ -77,7 +77,7 @@
       },
       {
         "name": "Gold Partner",
-        "price": "ab 40000Fr.",
+        "price": "ab CHF 12000.-",
         "benefits": [
           "Exklusiver Hauptpartner",
           "Logo prominent auf Fahrzeug, Rennbekleidung, Teambekleidung",
@@ -92,8 +92,25 @@
   },
   "posts": [
     {
+      "id": 1794058061095,
+      "title": "Meisterschaftergebniss",
+      "date": "2026-11-07",
+      "text": "Nach meinem ersten Jahr im Kartsport und meiner ersten Kartmeisterschaft durfte ich die Saison mit einem starken 10. Platz von insgesamt 21 Fahrern abschliessen.\r\n\r\nEs war eine anspruchsvolle Saison mit vielen Herausforderungen und Problemen. Doch mein Team und ich konnten diese gemeinsam meistern und dabei zahlreiche wertvolle Erfahrungen sammeln und viel Neues dazulernen.\r\n\r\nIch bin sehr zufrieden mit meiner ersten Meisterschaft und stolz auf das, was wir gemeinsam erreicht haben. Gleichzeitig weiss ich, woran ich weiterarbeiten muss, und bin überzeugt, dass wir im nächsten Jahr noch stärker zurückkommen werden!",
+      "images": []
+    },
+    {
+      "id": 1794056852130,
+      "title": "Finales Rennen in Wohlen",
+      "date": "2026-11-07",
+      "text": "Das vierte und letzte Meisterschaftsrennen fand in Wohlen statt. Es war ein harter, aber dennoch sehr guter Renntag. Der Tag begann mit Regen, der bis in den Nachmittag anhielt und die Bedingungen auf der Strecke entsprechend anspruchsvoll machte.\r\n\r\nDas erste Rennen verlief leider nicht wie erhofft. Aufgrund von Motorproblemen musste ich das Rennen bereits nach zwei Runden vorzeitig beenden. Auch das zweite Rennen fand komplett im Regen statt und lief nicht ganz nach unseren Vorstellungen.\r\n\r\nMit einigen Schwierigkeiten im Gepäck startete ich schliesslich vom 16. Startplatz in das letzte Rennen der Meisterschaft. Aber wow, was für ein Rennen! Nach einem schwierigen Start fiel ich zunächst auf Position 18 zurück. Danach ging es jedoch richtig los: Überholmanöver um Überholmanöver und eine unglaublich gute Pace brachten mich am Ende bis auf den 9. Platz nach vorne.\r\n\r\nFahrerisch war es eines meiner besten Rennen der gesamten Saison!\r\n\r\nAuch wenn das Endergebnis nicht ganz unseren Erwartungen und Zielen entsprach, waren mein Team und ich mit unserer Leistung sehr zufrieden. Besonders das letzte Rennen hat gezeigt, was möglich ist, wenn alles zusammenpasst.\r\n\r\nDamit geht eine ereignisreiche und lehrreiche Meisterschaftssaison zu Ende. Ein grosses Dankeschön an mein Team und alle, die mich auf diesem Weg unterstützt haben!",
+      "images": [
+        "uploads/img_1794135437450_4b34494b.png",
+        "uploads/img_1794135461000_b770e0c3.jpg"
+      ]
+    },
+    {
       "id": 1788009165911,
-      "title": "Drites Saisonrennen in Mirecourt Frankreich",
+      "title": "Drittes Saisonrennen in Mirecourt Frankreich",
       "date": "2026-08-23",
       "text": "Das dritte Rennen der Saison, und was für ein tolles Rennwochenende! Mit vielen spannenden Zwei und Dreikämpfen auf der Strecke gab es jede Menge packendes Racing. Trotz eines Schadens an der Hinterachse haben mein Team und ich bis zur letzten Runde gekämpft und alles gegeben.\r\n\r\nEin insgesamt tolles Rennwochenende, das vor allem im ersten Rennlauf mit einem starken P6 belohnt wurde!",
       "images": []
@@ -138,7 +155,9 @@
       "images": [
         "uploads/post-fitness-1.jpg",
         "uploads/post-fitness-2.jpg",
-        "uploads/post-fitness-3.jpg"
+        "uploads/post-fitness-3.jpg",
+        "uploads/img_1794132368372_eb15efd1.jpeg",
+        "uploads/img_1794132398322_dceb5107.jpeg"
       ]
     },
     {
@@ -156,25 +175,26 @@
       "id": 7,
       "title": "Drift Masters Lettland mit The Drift Force",
       "date": "2026-07-25",
-      "text": "Am 24. und 25. Juli durfte ich das Profi-Rennteam The Drift Force nach Riga, Lettland, zur Drift Masters begleiten, bei der das Team an den Start ging. Es war ein großartiges Erlebnis mit vielen spannenden Einblicken in den professionellen Motorsport und die Welt des Driftens. Ein Wochenende voller neuer Eindrücke und Erfahrungen, das ich so schnell nicht vergessen werde!",
+      "text": "Am 24. und 25. Juli durfte ich das Profi-Rennteam The Drift Force nach Riga, Lettland, zur Drift Masters begleiten, bei der das Team an den Start ging. Es war ein grossartiges Erlebnis mit vielen spannenden Einblicken in den professionellen Motorsport und die Welt des Driftens. Ein Wochenende voller neuer Eindrücke und Erfahrungen, das ich so schnell nicht vergessen werde!",
       "images": [
         "uploads/post-lettland-1.jpg",
-        "uploads/post-lettland-2.jpg",
-        "uploads/post-lettland-3.jpg"
+        "uploads/post-lettland-3.jpg",
+        "uploads/img_1794132961941_1f26d321.jpeg",
+        "uploads/img_1794132973240_de718acf.jpeg"
       ]
     },
     {
       "id": 8,
       "title": "Zweites Saisonrennen in Lévier",
       "date": "2026-08-09",
-      "text": "Am 9. August ging es weiter im Kartkalender: Zweites Saisonrennen auf dem Circuit de l'Enclos in Lévier (Frankreich). Mit jedem Rennwochenende sammle ich mehr Erfahrung und komme meinem Ziel, dem Wechsel in den Automobilsport, einen Schritt näher.\r\n\r\nEin schwieriges Rennwochenende. Nach vorherigen Motorenproblemen war am Samstag wieder kein Training möglich – trotzdem blieb ich optimistisch.\r\n\r\nNicht alles lief nach Plan. Nach starken Fights schied ich im Finale nach dem verlorenen zweiten Kampf in Runde 4 aus und landete im Reifenstapel\r\n\r\nTrotzdem: Platz 15. Ein hart erkämpftes Ergebnis und ein Wochenende, aus dem ich viel mitnehme durfte.",
+      "text": "Am 9. August ging es weiter im Kartkalender: Zweites Saisonrennen auf dem Circuit de l'Enclos in Lévier (Frankreich). Mit jedem Rennwochenende sammle ich mehr Erfahrung und komme meinem Ziel, dem Wechsel in den Automobilsport, einen Schritt näher.\r\n\r\nEin schwieriges Rennwochenende. Nach vorherigen Motorenproblemen war am Samstag wieder kein Training möglich – trotzdem blieb ich optimistisch.\r\n\r\nNicht alles lief nach Plan. Nach starken Fights schied ich im Finale nach dem verlorenen zweiten Kampf in Runde 4 aus und landete im Reifenstapel\r\n\r\nTrotzdem: Platz 15. Ein hart erkämpftes Ergebnis und ein Wochenende, aus dem ich viel mitnehmen durfte.",
       "images": [
         "uploads/post-levier-1.jpg"
       ]
     },
     {
       "id": 9,
-      "title": "Formel-4-Test mit Jenzer Motorspsort",
+      "title": "Formel-4-Test mit Jenzer Motorsport",
       "date": "2026-08-12",
       "text": "Eines der Highlights dieses Jahres! \r\n\r\nIch durfte gemeinsam mit Jenzer Motorsport, einem Schweizer Formel-4-Team, einen Formel-4-Rennwagen auf dem Circuit du Laquais, in Frankreich testen und fahren.\r\n\r\nAm Montag stand zunächst das Seat Fitting auf dem Programm, bevor ich zum ersten Mal in einem Formel-4-Rennwagen Platz nehmen durfte. Und wow, was für ein Gefühl! \r\n\r\nAm darauffolgenden Tag ging es dann endlich auf die Strecke. Der erste Moment hinter dem Steuer eines Formel-4-Boliden ist etwas, das ich niemals vergessen werde. Mein Grinsen war natürlich riesig!\r\n\r\nNeben dem Fahren durften wir gemeinsam mit den Mechanikern unsere Runden analysieren und herausfinden, wo wir uns noch verbessern können. Dadurch konnte ich nicht nur auf der Strecke, sondern auch neben ihr viel dazulernen.\r\n\r\nEin unglaublicher Tag und eine Erfahrung, von der ich nie gedacht hätte, dass ich sie bereits nach nur einem Jahr im Kartsport machen darf.\r\n\r\nEin riesiges Dankeschön an Jenzer Motorsport für diese Gelegenheit!",
       "images": [
